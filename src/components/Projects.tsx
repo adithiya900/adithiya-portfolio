@@ -64,7 +64,7 @@ const Projects = () => {
 
               <div className="project-actions">
             <a
-              href="/Smart_Toll_AI_Gate_Project_Explanation.pdf"
+              href="/Updated_SmartToll_Interview_Prep.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-gold btn-sm"

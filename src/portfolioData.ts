@@ -87,7 +87,7 @@ export const portfolioData = {
       tag: "ACADEMIC · B.TECH",
       title: "Bachelor of Technology in Information Technology",
       score: "CGPA: 7.35",
-      desc: "Rathinam Technical Campus, Pollachi Main Road — Coimbatore. (2020–2024)",
+      desc: "Rathinam Technical Campus, Pollachi Main Road — Coimbatore. (2023–2027)",
     },
   ],
 
