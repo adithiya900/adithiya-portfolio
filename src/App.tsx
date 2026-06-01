@@ -1,6 +1,4 @@
-import { useEffect, useState } from 'react';
-import { AnimatePresence, motion } from 'framer-motion';
-import LoadingScreen from './components/LoadingScreen';
+import { useEffect } from 'react';
 import ParticleBackground from './components/ParticleBackground';
 import ScrollProgress from './components/ScrollProgress';
 import Navbar from './components/Navbar';
@@ -14,7 +12,7 @@ import Footer from './components/Footer';
 import LiveDashboard from './components/LiveDashboard';
 
 function App() {
-  const [loading, setLoading] = useState(false);
+
 
   useEffect(() => {
     // Scroll to Hero section on page load
