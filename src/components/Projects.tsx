@@ -73,6 +73,7 @@ const Projects = () => {
             </a>
             <a
               href={featured.liveDemo}
+              onClick={(e) => { e.preventDefault(); if (featured.liveDemo) window.open(featured.liveDemo, '_blank', 'noopener,noreferrer'); }}
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-ghost btn-sm"
@@ -81,6 +82,7 @@ const Projects = () => {
             </a>
             <a
               href={featured.github}
+              onClick={(e) => { e.preventDefault(); if (featured.github) window.open(featured.github, '_blank', 'noopener,noreferrer'); }}
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-ghost btn-sm"
