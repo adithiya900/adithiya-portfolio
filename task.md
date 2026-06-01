@@ -1,0 +1,36 @@
+- [/ ] Create design system: theme.css with black/charcoal palette and gold glow variables
+- [/ ] Add globals.css for resets and font imports
+- [/ ] Create src/config.ts with branding, navigation, skill categories, projects, file repo data
+- [/ ] Install new dependencies: framer-motion, tsparticles, react-icons, simple-git, dotenv, express, multer
+- [/ ] Implement Navbar component (floating glass, mobile menu, active highlighting)
+- [/ ] Implement LoadingScreen component
+- [/ ] Implement ParticleBackground hook and integrate into App
+- [/ ] Implement ScrollProgress component
+- [/ ] Implement Hero component with typing animation, status indicators, CTA buttons
+- [/ ] Implement About component with glass card and animations
+- [/ ] Implement Skills component with category grouping and progress rings
+- [/ ] Implement FeaturedProject component (Smart Toll AI Gate) with carousel, badges, stats
+- [/ ] Implement OtherProjects component (placeholder grid of cards)
+- [/ ] Implement Achievements component (badge cards)
+- [/ ] Implement Certifications component (badge list)
+- [/ ] Implement Education component (timeline)
+- [/ ] Implement TechnicalStack component (icon grid)
+- [/ ] Implement FileRepository component with sections for resume, certificates, internships, reports, docs, screenshots
+- [/ ] Implement Contact component with glowing icons and form
+- [/ ] Update App.tsx to compose all sections, add LoadingScreen, ScrollProgress, ParticleBackground
+- [/ ] Update index.html meta tags for SEO
+- [/ ] Test responsiveness and dark theme consistency
+- [/ ] Run lint and build, verify no white backgrounds
+- [/ ] Deploy build to Netlify/Vercel (optional)
+- [/ ] Create walkthrough.md summarizing changes
+- [/ ] Update server.js to include file size and mtime in /api/files response
+- [/ ] Create FileIcon component for file type icons
+- [ ] Create PreviewModal component for PDF/Image preview
+- [ ] Create SearchBar component for repository search
+- [ ] Create DashboardStats component for repository statistics
+- [ ] Enhance ProjectGallery component with multi‑image lazy carousel
+- [ ] Wire FileRepository UI to fetch from /api/files, display icons, size, date, preview, download, search, filters
+- [ ] Add Sync to GitHub button that calls /api/sync
+- [ ] Ensure all UI uses black + gold theme, glass‑morphism, animated borders, particles
+- [ ] Optimize assets, lazy load images, ensure mobile responsiveness
+- [ ] Document frontend and backend deployment steps in walkthrough.md

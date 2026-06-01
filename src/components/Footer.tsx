@@ -1,21 +1,12 @@
-
-
-const Footer = () => {
-  const currentYear = new Date().getFullYear();
-  
-  return (
-    <footer className="footer">
-      <div className="container footer-content">
-        <div className="footer-logo">
-          <span className="title-gradient font-bold text-xl">Adithiya.R</span>
-        </div>
-        <p className="footer-text">
-          Designed and built with ❤️ by Adithiya R. <br/>
-          &copy; {currentYear} All rights reserved.
-        </p>
-      </div>
-    </footer>
-  );
-};
+const Footer = () => (
+  <footer className="footer">
+    <div className="container">
+      <div className="footer-logo">R.ADITHIYA · SYS</div>
+      <p className="footer-text">
+        Engineered by Adithiya R · {new Date().getFullYear()} · All Systems Operational
+      </p>
+    </div>
+  </footer>
+);
 
 export default Footer;
