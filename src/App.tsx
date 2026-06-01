@@ -32,10 +32,10 @@ function App() {
       <Navbar />
       <main>
         <Hero />
-        <LiveDashboard />
         <About />
         <Skills />
         <Projects />
+        <LiveDashboard />
         <Education />
         <Contact />
       </main>

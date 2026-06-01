@@ -64,7 +64,7 @@ const Projects = () => {
 
               <div className="project-actions">
             <a
-              href="/Smart_Toll_AI_Gate_Project_Explanation.pdf"
+              href="/Updated_SmartToll_Interview_Prep.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-gold btn-sm"
@@ -73,6 +73,7 @@ const Projects = () => {
             </a>
             <a
               href={featured.liveDemo}
+              onClick={(e) => { e.preventDefault(); if (featured.liveDemo) window.open(featured.liveDemo, '_blank', 'noopener,noreferrer'); }}
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-ghost btn-sm"
@@ -81,6 +82,7 @@ const Projects = () => {
             </a>
             <a
               href={featured.github}
+              onClick={(e) => { e.preventDefault(); if (featured.github) window.open(featured.github, '_blank', 'noopener,noreferrer'); }}
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-ghost btn-sm"

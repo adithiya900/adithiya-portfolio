@@ -728,7 +728,8 @@ body {
   padding: 4px 12px;
   border-radius: 6px;
 }
-.project-actions { display: flex; gap: 12px; }
+.project-actions { display: flex; gap: 12px; position: relative; z-index: 50; }
+.project-actions .btn { position: relative; z-index: 60; }
 .project-preview {
   border-radius: 12px;
   overflow: hidden;
